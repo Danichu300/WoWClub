@@ -1,0 +1,76 @@
+@font-face{
+	font-family: 'LifeCraft_Font';
+	src: url("LifeCraft_Font.ttf");
+}
+
+
+#contenedor{
+	width: 90%;
+	text-align: center;
+}
+
+body{
+	background-image: url("Fotos Plantilla/trono.jpg");
+	background-size: 100%;
+}
+
+#imglogo{
+	position: relative;
+	left: 6%;
+}
+
+h1{
+	position: relative;
+	left: 6%;
+	color: gold;
+	font-family: 'LifeCraft_Font';
+	letter-spacing: 5px;
+	font-weight:bold;
+  -webkit-text-fill-color: goldenrod;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
+}
+
+#alliance{
+	padding: 20px;
+	border: 5px none;
+	width: 20%;
+	float: left;
+	display: inline;
+	margin-left: 30%;
+}
+
+#alliance img{
+	width: 60%;
+}
+
+#textoalianza{
+	display: none;
+}
+
+#alliance img:hover{
+	width: 80%;
+	transition: 0.5s;
+}
+
+#horde{
+	padding: 20px;
+	border: 5px none;
+	width: 20%;
+	float: right;
+	display: inline;
+	margin-right: 20%;
+}
+
+#horde img{
+	width: 40%;
+}
+
+#textohorda{
+	display: none;
+}
+
+#horde img:hover{
+	width: 60%;
+	transition: 0.5s;
+}

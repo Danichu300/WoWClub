@@ -1,0 +1,268 @@
+@font-face{
+	font-family: 'LifeCraft_Font';
+	src: url("LifeCraft_Font.ttf");
+}
+
+*{
+	margin:0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#contenedor{
+	width: 90%;
+	margin: 0px auto;
+}
+
+body{
+	text-align: center;
+	background-image: url("Fotos Plantilla/alliancebackground.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+#cabezal{
+	width: 100%;
+	height: 200px;
+}
+
+nav {
+	width: 100%;
+	height: 50px;
+	border: 5px outset grey;
+	background-color: rgba(64, 64, 64, 0.7);
+}
+
+nav > ul > li{
+	position: inherit;
+	padding: 5px;
+	margin: 10px;
+	display: inline-block;
+	font-size: 30px;
+	font-family: 'LifeCraft_Font';
+	font-weight:bold;
+  -webkit-text-fill-color: goldenrod;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
+}
+
+nav > ul > li > ul{
+	position: absolute;
+	display: none;
+	/*border: 5px outset grey;*/
+	/*background-color: rgba(64, 64, 64, 0.7);*/
+}
+
+nav > ul > li:hover > ul{
+	display: block;
+	font-size:20px;
+}
+
+nav > ul > li:hover  #sec2{
+	display: none;
+}
+
+#map img{
+	width: 100%;
+	height: 50%;
+	position: relative;
+	right: 40%;
+}
+
+#puntostormwind{
+	position: absolute;
+	top: 68%;
+	left: 40%;
+}
+
+#puntostormwind:hover #stormphoto{
+	display: block;
+}
+
+#puntostormwind:hover p{
+	display: none;
+}
+
+#stormphoto{
+	display: none;
+}
+
+#stormphoto img{
+	width: 50%;
+	height: 50%;
+}
+
+#puntoironforge{
+	position: absolute;
+	top: 63%;
+	left: 42%;
+}
+
+#puntoironforge:hover #ironphoto{
+	display: block;
+}
+
+#puntoironforge:hover p{
+	display: none;
+}
+
+#ironphoto{
+	display: none;
+}
+
+#ironphoto img{
+	width: 50%;
+	height: 50%;
+}
+
+#puntoexodar{
+	position: absolute;
+	top: 40%;
+	left: -37%;
+}
+
+#puntoexodar:hover #exophoto{
+	display: block;
+}
+
+#puntoexodar:hover p{
+	display: none;
+}
+
+#exophoto{
+	display: none;
+}
+
+#exophoto img{
+	width: 50%;
+	height: 50%;
+}
+
+#puntodarnassus{
+	position: absolute;
+	top: 27%;
+	left: -30%;
+}
+
+#puntodarnassus:hover #darnaphoto{
+	display: block;
+}
+
+#puntodarnassus:hover p{
+	display: none;
+}
+
+#darnaphoto{
+	display: none;
+}
+
+#darnaphoto img{
+	width: 50%;
+	height: 50%;
+}
+
+#puntopandaria{
+	position: absolute;
+	top: 75%;
+}
+
+#puntopandaria:hover #pandaphoto{
+	display: block;
+}
+
+#puntopandaria:hover p{
+	display: none;
+}
+
+#pandaphoto{
+	display: none;
+}
+
+#pandaphoto img{
+	width: 50%;
+	height: 50%;
+}
+
+#sec1{
+	position: inherit;
+	width: 50%;
+	height: 100%;
+	float:left;
+}
+
+section{
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	border: 5px outset grey;
+	background-color: rgba(64, 64, 64, 0.7);
+}
+
+section > header{
+	padding: 20px;
+}
+
+section > article > header{
+	padding: 15px;
+	text-align: left;
+	border-bottom: 2px solid grey;
+}
+
+section > article > p{
+	text-align: left;
+	padding: 10px;
+}
+
+section > article > h2{
+	text-align: left;
+	border-bottom: 2px solid grey;
+}
+
+section > article > footer{
+	text-align: left;
+	border: 5px solid yellow;
+}
+
+#sec2{
+	position: inherit;
+	width: 40%;
+	height: 100%;
+	float:right;
+}
+
+aside{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border: 1px solid white;
+	padding: 5px;
+	border: 5px outset grey;
+	background-color: rgba(64, 64, 64, 0.7);
+	z-index: -1;
+}
+
+aside > header{
+	padding: 20px;
+	border:5px none;
+	background-color: #08298A;
+}
+
+aside > article{
+	padding: 10px;
+}
+
+aside > article > p{
+	text-align: left;
+}
+
+#imagenperfil img{
+	width: 40%;
+	height: 40%;
+}
+
+/*#pie{
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+}*/

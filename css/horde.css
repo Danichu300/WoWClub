@@ -1,0 +1,261 @@
+@font-face{
+	font-family: 'LifeCraft_Font';
+	src: url("LifeCraft_Font.ttf");
+}
+
+*{
+	margin:0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#contenedor{
+	width: 90%;
+	margin: 0px auto;
+}
+
+body{
+	text-align: center;
+	background-image: url("Fotos Plantilla/hordebackground.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+#cabezal{
+	width: 100%;
+	height: 200px;
+}
+
+nav {
+	width: 100%;
+	height: 50px;
+	border: 5px outset grey;
+	background-color: rgba(64, 64, 64, 0.7);
+}
+
+nav > ul > li{
+	position: inherit;
+	padding: 5px;
+	margin: 10px;
+	display: inline-block;
+	font-size: 30px;
+	font-family: 'LifeCraft_Font';
+	font-weight:bold;
+  -webkit-text-fill-color: goldenrod;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
+}
+
+nav > ul > li > ul{
+	position: absolute;
+	display: none;
+}
+
+nav > ul > li:hover > ul{
+	display: block;
+	font-size:20px;
+}
+
+nav > ul > li:hover  #sec2{
+	display: none;
+}
+
+#map img{
+	width: 100%;
+	height: 50%;
+	position: relative;
+	right: 40%;
+}
+
+#puntoorgrimmar{
+	position: absolute;
+	top: 53%;
+	left: -20%;
+}
+
+#puntoorgrimmar:hover #orgriphoto{
+	display: block;
+}
+
+#puntoorgrimmar:hover p{
+	display: none;
+}
+
+#orgriphoto{
+	display: none;
+}
+
+#orgriphoto img{
+	width: 50%;
+	height: 50%;
+}
+
+#puntoundercity{
+	position: absolute;
+	top: 43%;
+	left: 40%;
+}
+
+#puntoundercity:hover #underphoto{
+	display: block;
+}
+
+#puntoundercity:hover p{
+	display: none;
+}
+
+#underphoto{
+	display: none;
+}
+
+#underphoto img{
+	width: 50%;
+	height: 50%;
+}
+
+#puntothunder{
+	position: absolute;
+	top: 60%;
+	left: -27%;
+}
+
+#puntothunder:hover #thunderphoto{
+	display: block;
+}
+
+#puntothunder:hover p{
+	display: none;
+}
+
+#thunderphoto{
+	display: none;
+}
+
+#thunderphoto img{
+	width: 50%;
+	height: 50%;
+}
+
+#puntodsilvermoon{
+	position: absolute;
+	top: 27%;
+	left: 45%;
+}
+
+#puntodsilvermoon:hover #silverphoto{
+	display: block;
+}
+
+#puntodsilvermoon:hover p{
+	display: none;
+}
+
+#silverphoto{
+	display: none;
+}
+
+#silverphoto img{
+	width: 50%;
+	height: 50%;
+}
+
+#puntopandaria{
+	position: absolute;
+	top: 75%;
+}
+
+#puntopandaria:hover #pandaphoto{
+	display: block;
+}
+
+#puntopandaria:hover p{
+	display: none;
+}
+
+#pandaphoto{
+	display: none;
+}
+
+#pandaphoto img{
+	width: 50%;
+	height: 50%;
+}
+
+#sec1{
+	position: inherit;
+	width: 50%;
+	height: 100%;
+	float:left;
+}
+
+section{
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	border: 5px outset grey;
+	background-color: rgba(64, 64, 64, 0.7);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+
+section > header{
+	padding: 20px;
+}
+
+section > article > header{
+	padding: 15px;
+	text-align: left;
+	border-bottom: 2px solid grey;
+}
+
+section > article > p{
+	text-align: left;
+	padding: 10px;
+}
+
+section > article > h2{
+	text-align: left;
+	border-bottom: 2px solid grey;
+}
+
+section > article > footer{
+	text-align: left;
+	border: 5px solid yellow;
+}
+
+#sec2{
+	position: inherit;
+	width: 40%;
+	height: 100%;
+	float:right;
+}
+
+aside{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border: 1px solid white;
+	padding: 5px;
+	border: 5px outset grey;
+	background-color: rgba(64, 64, 64, 0.7);
+	z-index: -1;
+}
+
+aside > header{
+	padding: 20px;
+	border:5px none;
+	background-color: #8A0808;
+}
+
+aside > article{
+	padding: 10px;
+}
+
+aside > article > p{
+	text-align: left;
+}
+
+#imagenperfil img{
+	width: 40%;
+	height: 40%;
+}

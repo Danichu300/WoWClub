@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+	<meta charset="utf-8">
+	<meta name="Author" content="Daniel Rodríguez Cardell">
+	<link rel="stylesheet" type="text/css" href="wowclub.css">
+	<link rel="stylesheet" href="https://github.com/Danichu300/WoWClubImpostor/tree/master/lifecraft">
+	<link rel="icon" type="image/png" href="Fotos Plantilla/logo.png"/>
+	<title>WoW Club</title>
+</head>
+<body>
+	<div id="contenedor">
+		<div id="imglogo"><img src="Fotos Plantilla/logo.png"></div>
+
+		<h1>CHOOSE YOUR PATH</h1>
+
+		<div id="alliance"><a href="alliance.html"><img src="Fotos Plantilla/logoalianza.png"><div id="textoalianza">Alliance</div></a></div>
+		<div id="horde"><a href="horde.html"><img src="Fotos Plantilla/logohorda.png"><div id="textohorda">Horde</div></a></div>
+	</div>
+</body>
+</html>

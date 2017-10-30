@@ -1,6 +1,10 @@
+* {
+	box-sizing: border-box;
+}
+
 @font-face{
 	font-family: 'LifeCraft_Font';
-	src: url("https://rawgit.com/Danichu300/WoWClub/master/LifeCraft_Font.ttf");
+	src: url("LifeCraft_Font.ttf");
 }
 
 
@@ -10,7 +14,7 @@
 }
 
 body{
-	background-image: url("https://rawgit.com/Danichu300/WoWClub/master/Images/trono.jpg");
+	background-image: url("Fotos Plantilla/trono.jpg");
 	background-size: 100%;
 }
 
@@ -73,4 +77,62 @@ h1{
 #horde img:hover{
 	width: 60%;
 	transition: 0.5s;
+}
+
+@media screen and (max-width: 768px){
+
+	#imglogo img{
+		width: 60%;
+	}
+
+	h1{
+		font-size: 40px;
+	}
+
+	#alliance{
+		width: 50%;
+		margin: 0 auto;
+		padding: 0 auto;
+	}
+
+	#horde{
+		width: 50%;
+		margin: 0 auto;
+		padding: 0 auto;
+	}
+
+	body{
+		background-size: auto auto;
+		background-repeat: no-repeat;
+	}
+
+}
+
+@media screen and (max-width: 420px){
+
+	#imglogo img{
+		width: 100%;
+	}
+
+	h1{
+		font-size: 35px;
+	}
+
+	#alliance{
+		width: 50%;
+		float: none;
+		padding: 10px;
+	}
+
+	#horde{
+		width: 50%;
+		float: none;
+		padding: 10px;
+	}
+
+	body{
+		background-size: auto auto;
+		background-repeat: no-repeat;
+	}
+
 }

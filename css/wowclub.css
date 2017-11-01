@@ -4,7 +4,7 @@
 
 @font-face{
 	font-family: 'LifeCraft_Font';
-	src: url("LifeCraft_Font.ttf");
+	src: url("https://rawgit.com/Danichu300/WoWClub/master/LifeCraft_Font.ttf");
 }
 
 
@@ -14,7 +14,7 @@
 }
 
 body{
-	background-image: url("Fotos Plantilla/trono.jpg");
+	background-image: url("https://rawgit.com/Danichu300/WoWClub/master/Images/trono.jpg");
 	background-size: 100%;
 }
 

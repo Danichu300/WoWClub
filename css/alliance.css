@@ -299,6 +299,7 @@ aside > article > p{
 		float: none;
 		width: auto;
 		padding: 5px;
+		width: 100%;
 	}
 
 	#sec2{

@@ -263,6 +263,23 @@ aside > article > p{
 	height: 40%;
 }
 
+@media screen and (max-width: 768px){
+
+	#sec1{
+		float: none;
+		width: auto;
+		padding: 5px;
+		width: 100%;
+	}
+
+	#sec2{
+		float: none;
+		width: auto;
+		padding: 5px;
+	}
+
+}
+
 @media screen and (max-width: 420px){
 
 	nav > ul > li{
